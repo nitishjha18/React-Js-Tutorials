@@ -1,7 +1,24 @@
 import React from "react";
 // import Card from "./Components/Card";
 // import axios from "axios";
-import Lorempicsum from "./Components/Lorempicsum";
+// import Lorempicsum from "./Components/Lorempicsum";
+import { Route, Routes } from "react-router-dom";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Home from "./Pages/Home";
+import Product from "./Pages/Product";
+import Header from "./Components/Header";
+
+// import React from "react";
+// const App = () => {
+
+//     return(
+//         <div>
+
+//         </div>
+//     )
+// }
+// export default App;
 
 // Use State
 // const App = () => {
@@ -128,8 +145,6 @@ import Lorempicsum from "./Components/Lorempicsum";
 //   );
 // };
 
-
-
 // Fetch API using "axios"
 // https://picsum.photos/ -> Is being used as PI
 // const App = () => {
@@ -170,18 +185,44 @@ import Lorempicsum from "./Components/Lorempicsum";
 //   );
 // };
 
+// Same API calling but now this time by using components
+// const App = () => {
+
+//     return(
+//         <div>
+//           <Lorempicsum />
+//         </div>
+//     )
+// }
+
+// React router DOM
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Header />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/About" element={<About />} />
+//         <Route path="/Contact" element={<Contact />} />
+//         <Route path="/Home" element={<Home />} />
+//         <Route path="/Product" element={<Product />} />
+//       </Routes>
+//     </div>
+//   );
+// };
+
+// export default App;
 
 
-
-// Same API calling but now this time by using components 
+// Context API - It is used to centralise the data 
 const App = () => {
-
     return(
         <div>
-          <Lorempicsum />
+          <h1>This is App</h1>
+      
+
         </div>
     )
 }
-
 export default App;
-
